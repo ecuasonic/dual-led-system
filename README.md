@@ -2,6 +2,10 @@
 
 This project implements a dual LED lighting system with adjustable intensity and color temperature, controlled by two input switches. It utilizes two LEDs—one cool white and one yellow to create customizable ambient lighting conditions.<br>
 
+Implemented in:
+- Physical wiring circuit
+- FPGA (vhdl)
+
 ## Features
 
 - **Cool White LED** and **Yellow LED** for adjustable color temperature.
@@ -57,3 +61,11 @@ Simulation to test whether the wiring schematic's current state and inputs provi
 
 Breadboard prototype of dual-LED state machine. <br>
 SPST DIP switches are used to implemented L, R, and Resetn signals.
+
+## Digital Anaylzer Acquisition
+
+![digital-analyzer-acquisition](images/digital-analyzer-acquisition.png)
+
+Successful digital analyzer acquisition shows trigger event at KEY0 (resetn) rising edge. <br>
+Multiple input and output signals recorded. <br>
+Similar results to corresponding dual-LED system simulation.
